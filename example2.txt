@@ -1,0 +1,12 @@
+var i;
+procedure p(var i);
+begin
+  i := 2;
+ print(i);
+end;
+
+begin
+  i := 1;
+ print(i);
+  call p(i);
+end.

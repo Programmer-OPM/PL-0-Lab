@@ -1,0 +1,19 @@
+var a[10][20];
+begin
+	for(var i :(0,9,1))
+	begin
+		for(var j :(0,19,1))
+		begin
+			if i<5 then
+			begin
+				a[i][j]:=i*j+i;
+				print(a[i][j]);
+			end;
+			else
+			begin
+				a[i][j]:=i*j;
+				print(a[i][j]);
+			end;
+		end;
+	end;
+end.

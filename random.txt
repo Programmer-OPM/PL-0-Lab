@@ -1,0 +1,16 @@
+var a[20];
+var i,j;
+begin
+i:=0;
+while i<10&&i<20 do
+begin
+a[i]:=random(100);
+print(a[i]);
+print();
+j:=random();
+print(j);
+print();
+i:=i+1;
+end
+end.
+

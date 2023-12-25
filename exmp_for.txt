@@ -1,0 +1,8 @@
+begin
+	for(var i :(27, 13, -2)) print(i);
+	for(var j :(10, 20))
+	begin
+		j  := j + 1;
+		print(j);
+	end
+end.

@@ -1,0 +1,16 @@
+var i;
+procedure p(var &i);
+begin
+  i := 2;
+ print(i);
+end;
+procedure q(var &i);
+begin
+  i := i + 1;
+ print(i);
+end;
+begin
+  i := 1;
+  call p(i);
+  call q(i);
+end.

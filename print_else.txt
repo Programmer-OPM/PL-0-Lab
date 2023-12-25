@@ -1,0 +1,8 @@
+var i;
+begin
+	i:=0;
+	if i=0 then
+	begin
+	print(1);
+	end;
+end.
